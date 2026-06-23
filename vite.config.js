@@ -6,6 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),
     tailwindcss()
-  ], base: '/Dood-Delivery-/'
+  ], base: '/Food-Delivery-/'
 })
 
