@@ -11,7 +11,7 @@ function Navbar() {
         {/*logo section*/}
         <div className="flex items-center gap-2">
           <img
-            src="./public/logo.png"
+            src="/logo.png"
             alt=""
             className="h-12 w-32 object-contain"
           />
