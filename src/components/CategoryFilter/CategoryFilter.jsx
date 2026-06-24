@@ -1,7 +1,7 @@
 import Button from "./Button";
 function CategoryFilter(){
     return(
-        <div className="flex gap-5 bg-white mx-10 px-15 py-1 border-t  border-b border-gray-300">
+        <div className="flex flex-wrap gap-3 bg-white px-4 sm:px-6 md:px-10 py-3 border-t border-b border-gray-300 justify-center">
             <Button value="all"/>
             <Button value="Mains"/>
             <Button value="Snacks"/>

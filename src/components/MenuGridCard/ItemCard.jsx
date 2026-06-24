@@ -4,9 +4,9 @@ import { Plus } from "lucide-react";
 function ItemCard(props) {
   return (
 
-    <div className="w-64 rounded-2xl bg-[#30302e] text-white overflow-hidden hover:border hover:border-amber-500 transition-all">
+    <div className="w-full max-w-xs rounded-2xl bg-[#30302e] text-white overflow-hidden hover:border hover:border-amber-500 transition-all">
       {/* Image */}
-      <div className="h-40 w-full">
+      <div className="aspect-video w-full">
         <img
           src={props.img}
           alt={props.name}

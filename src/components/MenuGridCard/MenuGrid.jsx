@@ -11,7 +11,7 @@ const foods = [
   },
   {
     id: 2,
-    img: "./public/pic/Butter_Chicken",
+    img: "",
     item: "Spicy",
     name: "Chicken Biryani",
     about: "Aromatic basmati rice cooked with flavorful spices and chicken.",
@@ -245,11 +245,11 @@ const foods = [
 
     return(
         
-        <div className="px-10 my-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center ">
+        <div className="px-4 sm:px-6 md:px-10 my-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
         {
         foods.map(function(ele) {
             return(
-                <ItemCard img={ele.img} item={ele.item} name={ele.name} about={ele.about} price={ele.price}/>
+                <ItemCard key={ele.id} img={ele.img} item={ele.item} name={ele.name} about={ele.about} price={ele.price}/>
               
             ) 
         })
